@@ -10,7 +10,7 @@ var speakWord = "Good Bye";
 
 
 byeSpeaker.speak = function (names) {
-	console.log(speakWord + names);
+	console.log(speakWord + "" + names);
 }
 window.byeSpeaker = byeSpeaker;
 
